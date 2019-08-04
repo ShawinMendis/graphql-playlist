@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 mongoose.connect(
-  `mongodb+srv://shawin-mendis:Shawwa19946@cluster0-08ss5.mongodb.net/test?retryWrites=true&w=majority`
+  `mongodb+srv://shawin-mendis:<password>@cluster0-08ss5.mongodb.net/test?retryWrites=true&w=majority`
 );
 mongoose.connection.once("open", () => {
   console.log("connected to dtabase");
